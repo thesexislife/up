@@ -201,7 +201,7 @@ a:hover { color:#fff; }
 .tm-text-primary { color: #e10c0c; }
 .tm-text-secondary { color: #CC6699; }
 a.tm-text-primary:hover { color:#666666; }
-.tm-bg-gray { background-color: #464545; }
+.tm-bg-gray { background-color: #464545                                                                                 ; }
 .tm-input-paging {
     width: 40px;
     border-radius: 0;
@@ -309,7 +309,7 @@ p, .tm-text-gray { color: #999; }
     top: 0;
     left: 0;
     width: 100%;
-    height: 60%;
+    height: 64%;
 }
 
 .tm-video-item figcaption > a {
@@ -582,6 +582,7 @@ select:not([multiple]) {
         background: white;
         width: 150px;
         padding: 15px;
+        z-index: 2;
     }
 
     .tm-container-content { max-width: 870px; }
